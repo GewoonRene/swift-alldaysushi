@@ -44,6 +44,7 @@
 			children = (
 				CA3B30EF232B93D80001073F /* swift-alldaysushi */,
 				CA3B30EE232B93D80001073F /* Products */,
+				CA3B3104232B98060001073F /* Readme.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,7 +66,6 @@
 				CA3B30F9232B93D90001073F /* Assets.xcassets */,
 				CA3B30FB232B93D90001073F /* LaunchScreen.storyboard */,
 				CA3B30FE232B93D90001073F /* Info.plist */,
-				CA3B3104232B98060001073F /* Readme.md */,
 			);
 			path = "swift-alldaysushi";
 			sourceTree = "<group>";
