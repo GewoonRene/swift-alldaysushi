@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6AA1A40234B2B0C00FD5E61 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA1A3F234B2B0C00FD5E61 /* ContainerController.swift */; };
+		B6AA1A42234B2B2000FD5E61 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA1A41234B2B2000FD5E61 /* HomeController.swift */; };
+		B6AA1A44234B2B3900FD5E61 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA1A43234B2B3900FD5E61 /* MenuController.swift */; };
 		CA3B30F1232B93D80001073F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3B30F0232B93D80001073F /* AppDelegate.swift */; };
 		CA3B30F8232B93D80001073F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3B30F6232B93D80001073F /* Main.storyboard */; };
 		CA3B30FA232B93D90001073F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3B30F9232B93D90001073F /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6AA1A3F234B2B0C00FD5E61 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		B6AA1A41234B2B2000FD5E61 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		B6AA1A43234B2B3900FD5E61 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		CA3B30ED232B93D80001073F /* swift-alldaysushi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-alldaysushi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3B30F0232B93D80001073F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA3B30F7232B93D80001073F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,6 +41,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6AA1A3B234B2AB100FD5E61 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B6AA1A3C234B2AB400FD5E61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B6AA1A3D234B2ABC00FD5E61 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6AA1A3F234B2B0C00FD5E61 /* ContainerController.swift */,
+				B6AA1A41234B2B2000FD5E61 /* HomeController.swift */,
+				B6AA1A43234B2B3900FD5E61 /* MenuController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B6AA1A3E234B2ABE00FD5E61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CA3B30E4232B93D80001073F = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +92,10 @@
 		CA3B30EF232B93D80001073F /* swift-alldaysushi */ = {
 			isa = PBXGroup;
 			children = (
+				B6AA1A3E234B2ABE00FD5E61 /* Model */,
+				B6AA1A3D234B2ABC00FD5E61 /* Controller */,
+				B6AA1A3C234B2AB400FD5E61 /* View */,
+				B6AA1A3B234B2AB100FD5E61 /* Utils */,
 				CA3B30F0232B93D80001073F /* AppDelegate.swift */,
 				CA3B30F6232B93D80001073F /* Main.storyboard */,
 				CA3B30F9232B93D90001073F /* Assets.xcassets */,
@@ -136,7 +177,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6AA1A44234B2B3900FD5E61 /* MenuController.swift in Sources */,
 				CA3B30F1232B93D80001073F /* AppDelegate.swift in Sources */,
+				B6AA1A40234B2B0C00FD5E61 /* ContainerController.swift in Sources */,
+				B6AA1A42234B2B2000FD5E61 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
