@@ -6,13 +6,16 @@
 //  Copyright © 2019 René Jr Huiberts. All rights reserved.
 //
 
+
 import UIKit
 
 class HomeController: UIViewController {
     
-//    MARK: - Properties
+    // MARK: - Properties
     
-//    MARK: - Init
+    var delegate: HomeControllerDelegate?
+    
+    // MARK: - Init
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,10 +24,11 @@ class HomeController: UIViewController {
         configureNavigationBar()
     }
     
-//    MARK: - Handlers
+    // MARK: - Handlers
     
     @objc func handleMenuToggle() {
-print("Toggle Menu..")    }
+        delegate?.handleMenuToggle()
+    }
     
     func configureNavigationBar() {
         navigationController?.navigationBar.barTintColor = .darkGray
