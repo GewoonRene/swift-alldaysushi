@@ -15,7 +15,7 @@ class MenuController: UIViewController {
 //    MARK: - Properties
     
     var tableView: UITableView!
-    
+    var delegate: HomeControllerDelegate?
 //    MARK: - Init
     
     override func viewDidLoad() {
@@ -52,8 +52,16 @@ extension MenuController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifer, for: indexPath) as! MenuOptionCell
+        
+        let menuOption = MenuOption(rawValue: indexPath.row)
+        cell.descriptionLabel.text = menuOption?.description
+        cell.iconImageview.image = menuOption?.image
+        
         return cell
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let menuOption = MenuOption(rawValue: indexPath.row)
+        delegate?.handleMenuToggle(forMenuOption: menuOption)
+    }
 }

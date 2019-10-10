@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46A5F4F6234CD97600A69E1D /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5F4F5234CD97600A69E1D /* MenuOption.swift */; };
 		B6AA1A40234B2B0C00FD5E61 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA1A3F234B2B0C00FD5E61 /* ContainerController.swift */; };
 		B6AA1A42234B2B2000FD5E61 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA1A41234B2B2000FD5E61 /* HomeController.swift */; };
 		B6AA1A44234B2B3900FD5E61 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA1A43234B2B3900FD5E61 /* MenuController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46A5F4F5234CD97600A69E1D /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
 		B6AA1A3F234B2B0C00FD5E61 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
 		B6AA1A41234B2B2000FD5E61 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		B6AA1A43234B2B3900FD5E61 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		B6AA1A3E234B2ABE00FD5E61 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				46A5F4F5234CD97600A69E1D /* MenuOption.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,8 +103,8 @@
 			children = (
 				B6AA1A3E234B2ABE00FD5E61 /* Model */,
 				B6AA1A3D234B2ABC00FD5E61 /* Controller */,
-				B6AA1A3C234B2AB400FD5E61 /* View */,
 				B6AA1A3B234B2AB100FD5E61 /* Utils */,
+				B6AA1A3C234B2AB400FD5E61 /* View */,
 				CA3B30F0232B93D80001073F /* AppDelegate.swift */,
 				CA3B30F6232B93D80001073F /* Main.storyboard */,
 				CA3B30F9232B93D90001073F /* Assets.xcassets */,
@@ -185,6 +188,7 @@
 			files = (
 				B6AA1A46234B420900FD5E61 /* Protocols.swift in Sources */,
 				B6AA1A48234B6EC600FD5E61 /* MenuOptionCell.swift in Sources */,
+				46A5F4F6234CD97600A69E1D /* MenuOption.swift in Sources */,
 				B6AA1A44234B2B3900FD5E61 /* MenuController.swift in Sources */,
 				CA3B30F1232B93D80001073F /* AppDelegate.swift in Sources */,
 				B6AA1A40234B2B0C00FD5E61 /* ContainerController.swift in Sources */,
@@ -335,6 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RWK6D4ABNZ;
 				INFOPLIST_FILE = "swift-alldaysushi/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -352,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RWK6D4ABNZ;
 				INFOPLIST_FILE = "swift-alldaysushi/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
