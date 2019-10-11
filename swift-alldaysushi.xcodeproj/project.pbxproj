@@ -14,6 +14,7 @@
 		CA3B30FA232B93D90001073F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3B30F9232B93D90001073F /* Assets.xcassets */; };
 		CA3B30FD232B93D90001073F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3B30FB232B93D90001073F /* LaunchScreen.storyboard */; };
 		CA3B3105232B98060001073F /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = CA3B3104232B98060001073F /* Readme.md */; };
+		CACDF23A23507DD70024CEA9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACDF23923507DD70024CEA9 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CA3B30FC232B93D90001073F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA3B30FE232B93D90001073F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA3B3104232B98060001073F /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		CACDF23923507DD70024CEA9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CA3B30F2232B93D80001073F /* FirstViewController.swift */,
 				CA3B30F4232B93D80001073F /* SecondViewController.swift */,
 				CA3B30F6232B93D80001073F /* Main.storyboard */,
+				CACDF23923507DD70024CEA9 /* CollectionViewCell.swift */,
 				CA3B30F9232B93D90001073F /* Assets.xcassets */,
 				CA3B30FB232B93D90001073F /* LaunchScreen.storyboard */,
 				CA3B30FE232B93D90001073F /* Info.plist */,
@@ -144,6 +147,7 @@
 			files = (
 				CA3B30F5232B93D80001073F /* SecondViewController.swift in Sources */,
 				CA3B30F1232B93D80001073F /* AppDelegate.swift in Sources */,
+				CACDF23A23507DD70024CEA9 /* CollectionViewCell.swift in Sources */,
 				CA3B30F3232B93D80001073F /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
