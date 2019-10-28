@@ -20,7 +20,6 @@
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="DGg-Mt-F3e">
                         <barButtonItem key="leftBarButtonItem" title="Menu" image="Menu" id="aFG-Pq-EEf">
-                            <color key="tintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="didTapMenu:" destination="BYZ-38-t0r" id="QzJ-cO-dmK"/>
                             </connections>
@@ -217,6 +216,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="N6Z-qO-IGq">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
